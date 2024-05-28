@@ -6,7 +6,7 @@ from peft import get_peft_model, LoraConfig, TaskType, prepare_model_for_kbit_tr
 
 from metrics import compute_doudizhu_metrics
 from utils import load_dataset
-from train import InstructDataset, main
+from train_utils import InstructDataset, main
 
 
 def compute_metrics(pred):
